@@ -1,38 +1,61 @@
-.App {
+body {
+  margin: 0;
+  padding: 0;
+}
+.mainapp {
+  width: 100%;
+}
+.maintable {
+  width: 700px;
+  margin: 7% auto 0;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.maintable h1 {
+  font-size: 50px;
+  text-transform: capitalize;
+  margin-bottom: 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.maintable p {
+  text-transform: capitalize;
+  font-size: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.incress_btn {
+  background-color: brown;
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+  width: 50px;
+  float: left;
+  text-align: center;
+  margin-right: 15px;
+  margin-left: 33%;
 }
-
-.App-link {
-  color: #61dafb;
+.incress_btn a {
+  color: #fff;
+  text-decoration: none;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dicress_btn {
+  background-color: brown;
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+  width: 50px;
+  float: left;
+  text-align: center;
+  margin-right: 15px;
+}
+.dicress_btn a {
+  color: #fff;
+  text-decoration: none;
+}
+.input {
+  width: 100px;
+  float: left;
+  margin-right: 15px;
+}
+.fild {
+  width: 100%;
+  height: 60px;
+  font-size: 50px;
+  text-align: center;
 }
